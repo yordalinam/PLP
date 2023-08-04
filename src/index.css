@@ -1,0 +1,26 @@
+:root {
+  --color-lightest: #fdebd1;
+  --color-light: #f8d184;
+  --color-dark: #a83c7f;
+  --color-darkest: #551A8B;
+  --color-clicked: #ed49ae;
+
+
+  --font-size-very-small: 5px;
+  --font-size-small: 10px;
+  --font-size-normal: 12px;
+  --font-size-medium: 20px;
+  --font-size-big: 25px;
+
+
+}
+
+body {
+  margin: 0;
+  background: var(--color-lightest);
+  overflow-x: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}

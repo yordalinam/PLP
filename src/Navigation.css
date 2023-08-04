@@ -1,0 +1,152 @@
+.navigation {
+    background-color: var(--color-light);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    max-height: 100px;
+    min-width: fit-content;
+    top: 0;
+}
+
+.navigation>img {
+    max-height: 90%;
+    padding: 5px;
+    margin-right: auto;
+}
+
+.navigationMenu {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+    min-width: fit-content;
+    margin-right: 50px;
+}
+
+.navigationMenu>a:link {
+    min-width: max-content;
+    /* font-family: var(--font-family-special); */
+    color: var(--color-darkest);
+    font-size: 21px;
+    text-decoration: none;
+
+}
+
+.navigationMenu>a:hover {
+    color: var(--color-clicked);
+}
+
+.triggered {
+    color: var(--color-clicked);
+}
+
+.navigationMenu>a:active {
+    color: var(--color-darkest);
+}
+
+.navigationRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nameAndLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-big);
+    /* font-family: var(--font-family-special); */
+    color: var(--color-darkest);
+}
+
+.nameAndLogo>img {
+    padding-left: 15px;
+}
+
+.nameAndLogo>span {
+    color: var(--color-darkest);
+}
+
+.categoryRow {
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 105px;
+    margin-right: 20px;
+    gap: 50px;
+    font-size: var(--font-size-medium);
+    color: var(--color-darkest);
+
+}
+
+.categoryRow>select {
+    cursor: pointer;
+
+}
+
+.cat_Description {
+    font-weight: 600;
+    color: var(--color-darkest);
+    font-size: var(--font-size-big);
+    padding-right: 10pc;
+
+}
+
+.categoryRow>select:hover {
+    color: var(--color-clicked);
+
+}
+
+
+.sortingText {
+    all: unset;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .navigationMenu {
+        gap: 5px;
+        min-width: 50px;
+        margin-right: 10px;
+
+    }
+
+
+    .nameAndLogo {
+        font-size: 90%;
+    }
+
+    .nameAndLogo>img {
+        min-width: 10px;
+        padding-right: 10px;
+    }
+
+    .nameAndLogo>span {
+
+        padding-left: 10px;
+    }
+
+    .cat_Description {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 10px;
+        font-size: var(--font-size-medium);
+
+    }
+
+    .categoryRow {
+        gap: 10px;
+    }
+
+
+
+}

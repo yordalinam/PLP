@@ -1,0 +1,43 @@
+.singleProductContainer {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-dark);
+    padding: 20px;
+    color: var(--color-light);
+    border: solid 5px var(--color-light)
+}
+
+.singleProductContainer>h3 {
+    color: var(--color-lightest);
+    margin-bottom: 0;
+
+}
+
+.singleProductContainer>.lowerProductRow {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .singleProductContainer {
+        width: 200px;
+    }
+
+}
+
+.imageProduct {
+    width: 200px;
+    height: 200px;
+}
+
+.lowerProductRow>button {
+    font-family: var(--special-font-family);
+    border: solid 2px var(--color-darkest);
+    background: var(--color-lightest);
+    border-radius: 10px;
+    padding: 5px;
+    color: var(--color-darkest);
+    font-weight: 500
+}

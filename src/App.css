@@ -1,0 +1,119 @@
+.productGrid {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.byNameInput {
+    height: var(--font-size-medium)
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-right: 20px;
+
+}
+
+.filterColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: var(--color-darkest);
+    padding: 20px;
+
+}
+
+.filterColumn>span {
+    font-size: var(--font-size-big)
+}
+
+
+.byNameInput {
+    background: var(--color-light);
+}
+
+.simpleRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+
+
+}
+
+.simpleRow>button {
+    padding: 7px;
+    border-radius: 5px;
+    background: var(--color-light);
+    color: var(--color-darkest);
+    font-weight: 600;
+    font-size: var(--font-size-medium);
+
+
+}
+
+
+.simpleRow>span {
+    padding-right: 5px;
+    color: var(--color-darkest);
+    font-size: var(--font-size-big);
+
+}
+
+.productColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+#dialog {
+    position: fixed;
+    background: var(--color-light);
+
+}
+
+.dial {
+    background: var(--color-lightest);
+    border-radius: 5px;
+
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        margin-top: 50px;
+    }
+
+    .filterColumn {
+        margin-bottom: 50px;
+
+    }
+
+    .simpleRow {
+        margin: 3%;
+    }
+}
+
+.footer {
+    background-color: var(--color-dark);
+    font-size: var(--font-size-medium);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-height: 200px;
+    margin-top: 10px;
+    color: var(--color-lightest);
+    padding-left: 2%;
+    padding-bottom: 1%;
+
+}
