@@ -44,7 +44,7 @@
     align-items: center;
     justify-content: flex-start;
     gap: 10px;
-
+    padding: 10px;
 
 }
 
@@ -55,8 +55,12 @@
     color: var(--color-darkest);
     font-weight: 600;
     font-size: var(--font-size-medium);
+    cursor: pointer;
+}
 
-
+.simpleRow>button:hover {
+    background: var(--color-dark);
+    color: var(--color-light)
 }
 
 

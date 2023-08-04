@@ -33,6 +33,7 @@
 }
 
 .lowerProductRow>button {
+    cursor: pointer;
     font-family: var(--special-font-family);
     border: solid 2px var(--color-darkest);
     background: var(--color-lightest);
