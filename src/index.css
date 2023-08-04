@@ -18,9 +18,10 @@
 body {
   margin: 0;
   background: var(--color-lightest);
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  position: absolute;
 
 }
